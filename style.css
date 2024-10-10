@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background: url(/360_F_548700057_DURJ2BWw9xlGg5vfDyDfby8Xkv5dcDgq.jpg);
+    /* background-color: aqua; */
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.content {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-top: 40px;
+    margin-left: 10%;
+}
+
+.main {
+    display: flex;
+    gap: 65px;
+    margin-left: 30%;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    gap: 50px;
+    font-size: 20px;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.home {
+    color: #fff;
+    font-size: 55px;
+}
+
+.home span {
+    color: #FF0202;
+    font-size: 80px;
+    font-family: none;
+}
+
+.home samp {
+    color: blue;
+    font-size: 60px;
+}
+
+.home big {
+    color: darkgreen;
+    font-size: 70px;
+}
+
+
+/* this style for search button  */
+
+#search {
+    height: 40px;
+    width: 400px;
+    border: 1px solid #ff7200;
+    border-radius: 8px;
+}
+
+#search input {
+    border: none;
+    background: transparent;
+    height: 40px;
+    width: 275px;
+    outline: none;
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+
+#search button {
+    height: 40px;
+    background-color: #ff7200;
+    border: none;
+    width: 110px;
+    cursor: pointer;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+#search button:hover {
+    color: #fff;
+}
